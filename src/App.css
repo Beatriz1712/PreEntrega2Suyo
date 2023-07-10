@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+}
+
+.navbar {
+  background-color: rgb(45, 44, 44) !important;
+  color: whitesmoke;
+}
+
+.navbar .navbar-brand {
+  color: #ecf0f1;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #ecf0f1;
+  border-radius: .25rem;
+  margin: 0 0.25em;
+}
+.number{
+  height: 2rem;
+  margin: 0.5rem;
+}
