@@ -1,7 +1,7 @@
 [
     {
         "id":1,"titulo":"Mathew",
-        "image":"http://dummyimage.com/219x100.png/cc0000/ffffff",
+        "image":"http://dummyimage.com/250x250.png/cc0000/ffffff",
         "precio":9000,
         "description":"Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor."
     
@@ -11,7 +11,7 @@
     {
         "id":2,
         "titulo":"Justinian",
-        "image":"http://dummyimage.com/123x100.png/cc0000/ffffff",
+        "image":"http://dummyimage.com/250x250.png/cc0000/ffffff",
         "precio":2000,
         "description":"Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu."
     },
@@ -19,7 +19,7 @@
     {
         "id":3,
         "titulo":"Portia",
-        "image":"http://dummyimage.com/176x100.png/cc0000/ffffff",
+        "image":"http://dummyimage.com/250x250.png/cc0000/ffffff",
         "precio":2900,
         "description":"In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis."
     },
@@ -27,7 +27,7 @@
     {
         "id":4,
         "titulo":"Karlen",
-        "image":"http://dummyimage.com/192x100.png/ff4444/ffffff",
+        "image":"http://dummyimage.com/250x250.png/ff4444/ffffff",
         "precio":2200,
         "description":"Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet."
     },
@@ -35,7 +35,7 @@
     {
         "id":5,
         "titulo":"Edita",
-        "image":"http://dummyimage.com/232x100.png/dddddd/000000",
+        "image":"http://dummyimage.com/250x250.png/dddddd/000000",
         "precio":5400,
         "description":"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue."
     },
@@ -43,15 +43,15 @@
     {
         "id":6,
         "titulo":"Else",
-        "image":"http://dummyimage.com/156x100.png/ff4444/ffffff",
+        "image":"http://dummyimage.com/250x250.png/ff4444/ffffff",
         "precio":6700,
         "description":"Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi."
     },
 
     {
         "id":7,
-        "titulo":"Helaine",
-        "image":"http://dummyimage.com/108x100.png/cc0000/ffffff",
+        "titulo":"He250x250",
+        "image":"http://dummyimage.com/250x250.png/cc0000/ffffff",
         "precio":1800,
         "description":"Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.\n\nMorbi porttito."
     },
@@ -59,7 +59,7 @@
     {
         "id":8,
         "titulo":"Dar",
-        "image":"http://dummyimage.com/212x100.png/cc0000/ffffff",
+        "image":"http://dummyimage.com/250x250.png/cc0000/ffffff",
         "precio":1200,
         "description":"Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem."
     },
@@ -67,15 +67,15 @@
     {
         "id":9,
         "titulo":"Christyna",
-        "image":"http://dummyimage.com/200x100.png/cc0000/ffffff",
+        "image":"http://dummyimage.com/250x250.png/cc0000/ffffff",
         "precio":6300,
-        "description":"Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.\n\nQuisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.\n\nVestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat."
+        "description":"Aenean fermentum. Donec ut mauris eget massa tempor."
     },
 
     {
         "id":10,
         "titulo":"Seymour",
-        "image":"http://dummyimage.com/131x100.png/cc0000/ffffff",
+        "image":"http://dummyimage.com/250x250.png/cc0000/ffffff",
         "precio":3600,
         "description":"Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris."
      }

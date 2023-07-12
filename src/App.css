@@ -1,3 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+/*
+:root {
+  --clr-main:#c56cee;
+  --clr-main-ligth: #efdaf9;
+}
+*/
 .App {
   text-align: center;
 }
@@ -20,3 +32,28 @@
   height: 2rem;
   margin: 0.5rem;
 }
+
+.container {
+    padding-top: 0.7rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem;
+}
+
+/*
+.producto {
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+}
+*/
+/*
+.producto > div {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+
+} */
