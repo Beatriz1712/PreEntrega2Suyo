@@ -1,10 +1,23 @@
 import data from "../data/data.json";
 
-  const pedirProductos = () => {
-    return new Promise((resolve, reject) => {
+export  const pedirProductos = () => {
+    return new Promise((resolve) => {
         setTimeout( () => {
           resolve (data);
-        }, 0)
+        }, 500)
       })
 }
-export default pedirProductos;
+export  const pedirProductoById = (id) => {
+    return new Promise((resolve, reject) => {
+      const item = data.find((el) =>el.id === id);
+       if (item) {
+          resolve(item);
+        } else {
+          reject({
+            error: "No se encontro dicho producto"
+          })
+        }
+      }
+    )
+    }
+    

@@ -3,22 +3,23 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
     return (
-        <Navbar expand="lg" className="navbar">
-            <Container>
-                <Navbar.Brand href="#home">BettyShop💎</Navbar.Brand>
+        <Navbar expand="lg" bg="ligth" className="navbar">
+            <Container className="container-navbar">
+                <Navbar.Brand to="/">BettyStore💎</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#link">Productos</Nav.Link>
-                        <Nav.Link href="#link">Contacto</Nav.Link>
-                        <NavDropdown title="Categorias" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="#action/3.1">Productos 1</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.2">Productos 2</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">Productos 3</NavDropdown.Item>  
+                        <Link to="/" className="enlaces">Home</Link>
+                        <Link to="/productos" className="enlaces">Productos</Link>
+                        <Link to="/contacto" className="enlaces">Contacto</Link>
+                        <NavDropdown title="Categorias" className="enlacesDes" id="basic-nav-dropdown">
+                            <NavDropdown.Item ><Link className= "enlaces" to="/category/productos A">Productos A</Link></NavDropdown.Item>
+                            <NavDropdown.Item ><Link className= "enlaces" to="/category/productos B">Productos B</Link></NavDropdown.Item>
+                            <NavDropdown.Item ><Link className= "enlaces" to="/category/productos C">Productos C</Link></NavDropdown.Item>  
                         </NavDropdown>
                     </Nav>
                     {/*<CartWidget/>*/}

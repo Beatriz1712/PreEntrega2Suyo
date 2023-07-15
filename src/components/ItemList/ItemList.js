@@ -1,16 +1,20 @@
-import React from 'react'
-import Item from '../Item/Item'
 
+import Item from '../Item/Item'
+//presentacional-check
  const ItemList = ({productos}) => {
  return (
     <div className='container'>
-        <h2 className='main-title'>Productos</h2>
-
+        
         <div>
-           {productos.map((prod) => <Item producto={prod} key={prod.id} />)}
+           {
+            productos.length > 0 &&
+            productos.map((prod )=> {
+              return (
+                    <Item  producto={prod} key={prod.id}/>
+                    )
+            }
+           )}
         </div>
-
-         
 
     </div>
   )
@@ -18,6 +22,11 @@ import Item from '../Item/Item'
 
 export default ItemList;
 
+/*
+        <div>
+           {productos.map((prod) => <Item producto={prod} key={prod.id} />)}
+        </div>
+        */
 /*
 {
   productos.length > 0 &&

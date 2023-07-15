@@ -1,8 +1,11 @@
+
 [
     {
-        "id":1,"titulo":"Mathew",
+        "id":1,
+        "titulo":"Mathew",
         "image":"http://dummyimage.com/250x250.png/cc0000/ffffff",
         "precio":9000,
+        "category": "producto A",
         "description":"Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor."
     
     },
@@ -13,6 +16,7 @@
         "titulo":"Justinian",
         "image":"http://dummyimage.com/250x250.png/cc0000/ffffff",
         "precio":2000,
+        "category":"producto B",
         "description":"Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu."
     },
 
@@ -21,6 +25,7 @@
         "titulo":"Portia",
         "image":"http://dummyimage.com/250x250.png/cc0000/ffffff",
         "precio":2900,
+        "category":"producto C",
         "description":"In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis."
     },
 
@@ -29,6 +34,7 @@
         "titulo":"Karlen",
         "image":"http://dummyimage.com/250x250.png/ff4444/ffffff",
         "precio":2200,
+        "category":"producto C",
         "description":"Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet."
     },
 
@@ -37,6 +43,7 @@
         "titulo":"Edita",
         "image":"http://dummyimage.com/250x250.png/dddddd/000000",
         "precio":5400,
+        "category":"producto C",
         "description":"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue."
     },
 
@@ -45,6 +52,7 @@
         "titulo":"Else",
         "image":"http://dummyimage.com/250x250.png/ff4444/ffffff",
         "precio":6700,
+        "category":"producto B",
         "description":"Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi."
     },
 
@@ -53,6 +61,7 @@
         "titulo":"He250x250",
         "image":"http://dummyimage.com/250x250.png/cc0000/ffffff",
         "precio":1800,
+        "category":"producto B",
         "description":"Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.\n\nMorbi porttito."
     },
 
@@ -61,6 +70,7 @@
         "titulo":"Dar",
         "image":"http://dummyimage.com/250x250.png/cc0000/ffffff",
         "precio":1200,
+        "category":"producto B",
         "description":"Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem."
     },
 
@@ -69,6 +79,7 @@
         "titulo":"Christyna",
         "image":"http://dummyimage.com/250x250.png/cc0000/ffffff",
         "precio":6300,
+        "category":"producto A",
         "description":"Aenean fermentum. Donec ut mauris eget massa tempor."
     },
 
@@ -77,6 +88,7 @@
         "titulo":"Seymour",
         "image":"http://dummyimage.com/250x250.png/cc0000/ffffff",
         "precio":3600,
+        "category":"producto A",
         "description":"Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris."
      }
 

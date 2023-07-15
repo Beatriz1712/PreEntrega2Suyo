@@ -15,8 +15,9 @@
 }
 
 .navbar {
-  background-color: rgb(45, 44, 44) !important;
+  background-color: rgb(43, 41, 41) !important;
   color: whitesmoke;
+  height: 5rem;
 }
 
 .navbar .navbar-brand {
@@ -24,24 +25,47 @@
 }
 
 .navbar .navbar-nav .nav-link {
-  color: #ecf0f1;
+  color: #12aed5;
   border-radius: .25rem;
   margin: 0 0.25em;
+  font-size: 1.1rem;
+  padding: 1rem;
 }
 .number{
   height: 2rem;
   margin: 0.5rem;
 }
 
-.container {
-    padding-top: 0.7rem;
+.container-navbar {
+    padding: 0.9rem;
     display: flex;
-    flex-direction: row;
+    border-radius: 10px;
     flex-wrap: wrap;
     justify-content: center;
     margin: 2rem;
 }
 
+.enlaces{
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 1.4rem;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+.enlacesDes{
+  margin: .28rem;
+}
+.enlacesDes a{
+  color: rgb(0, 0, 0);
+}
+.enlacesDes a:hover{
+  color:rgb(39, 134, 222);
+}
+.enlacesDes:hover{
+  background: rgba(84, 82, 82, 0.403);
+  transition: 0.5s;
+  border-radius: 5px;
+}
 /*
 .producto {
   display: flex;
@@ -57,3 +81,10 @@
   gap: 5rem;
 
 } */
+.itemListContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+}
