@@ -1,15 +1,12 @@
-//import ItemCount from "../ItemCount/ItemCount"
-// eslint-disable-next-line
 import ItemList from "../ItemList/ItemList";
-import  {pedirProductos} from "../pedirProductos";//pedir con promesa
+import  {pedirProductos} from "../pedirProductos";
 import { useState,useEffect } from "react"
 import {useParams} from "react-router-dom"
 
 const ItemListContainer = () => {
 
   const [productos, setProductos] = useState([]);
-  console.log(productos);
-  const categoria = useParams().categoria;
+  const categoria = useParams()
 
   useEffect(() => {
     pedirProductos()
@@ -28,14 +25,6 @@ const ItemListContainer = () => {
       <ItemList productos={productos} />
     </div>
   )
-
-  /*return (
-    <div>
-        <h1 style ={{fontSize:"2.5rem",color:"black",margin:"20px"}}>{greeting}</h1>
-        
-        <ItemCount stock={10} initial={1} onAdd={(quantity) => console.log("Cantidad agregada")} />
-    </div>
-  )*/
 
 };
 export default ItemListContainer;

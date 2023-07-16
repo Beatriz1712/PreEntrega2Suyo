@@ -19,7 +19,7 @@ function App() {
             <Route exact path='/' element={<Home/>}/>
             <Route exact path='/contacto' element={<Contacto/>} />
             <Route exact path='/productos' element={<ItemListContainer />}/>
-            <Route exact path='/item/:id' element={<ItemDetailContainer /> }/>
+            <Route exact path='/Item/:id' element={<ItemDetailContainer /> }/>
             <Route exact path='/category' element={<Category/>} />
           </Routes>
           
@@ -30,8 +30,3 @@ function App() {
 
 export default App;
 
-
-/*
-<ItemListContainer />
-          <ItemDetailContainer/>
-          */

@@ -1,10 +1,7 @@
-// eslint-disable-next-line
-import Button from 'react-bootstrap/Button';
-//import Card from 'react-bootstrap/Card';
+// import Button from 'react-bootstrap/Button';
 import{Link} from 'react-router-dom';
 
 
-//info de cada producto
  const Item = ({producto}) => {
    
   return (
@@ -14,8 +11,8 @@ import{Link} from 'react-router-dom';
               <h4>{producto.titulo}</h4> 
               <p>Precio: ${producto.precio}</p>
               <p>Categoria: {producto.category}</p>
-              {/*<p>{producto.description}</p>*/}
-              <Link className='Ver-mas' to={`/Item`}>Ver más</Link>
+              <Link className='Ver-mas' to={`/Item/${producto.id}`}>Ver más</Link>
+              {/* FALTABA REFERENCIAR EL ID DEL PRODUCTO 👆 PARA QUE SE RECIBA EN LA RUTA */}
           </div>
      </div>
 
@@ -23,25 +20,4 @@ import{Link} from 'react-router-dom';
     }
     export default Item; 
       
-          /*<Headers HeadersH1='Detalles del producto'/>*/
-          /*
-            <div className='row row-cols-4'>
-              <Card style={{ borderRadius:"1rem",  width: '20rem',padding:"1rem",color:"black" }}>
-                <Card.Img variant="top" src={producto.image} />
-                <Card.Body>
-                  <Card.Title>{producto.titulo} </Card.Title>
-                  
-                  <Card.Text>
-                    {producto.description}
-                  </Card.Text>
-                  <Card.Text>${producto.precio}</Card.Text>
-                  <Button href='#'variant="primary">Descripcion</Button>
-                </Card.Body>
-              </Card>
-
-            </div>
-          */
-     
- 
-
-//<Card.Number>{producto.precio}</Card.Number>
+        

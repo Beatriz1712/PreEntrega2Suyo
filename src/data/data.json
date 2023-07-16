@@ -1,7 +1,7 @@
 
 [
     {
-        "id":1,
+        "id":"1",
         "titulo":"Mathew",
         "image":"http://dummyimage.com/250x250.png/cc0000/ffffff",
         "precio":9000,
@@ -12,7 +12,7 @@
 
  
     {
-        "id":2,
+        "id":"2",
         "titulo":"Justinian",
         "image":"http://dummyimage.com/250x250.png/cc0000/ffffff",
         "precio":2000,
@@ -21,7 +21,7 @@
     },
 
     {
-        "id":3,
+        "id":"3",
         "titulo":"Portia",
         "image":"http://dummyimage.com/250x250.png/cc0000/ffffff",
         "precio":2900,
@@ -30,7 +30,7 @@
     },
 
     {
-        "id":4,
+        "id":"4",
         "titulo":"Karlen",
         "image":"http://dummyimage.com/250x250.png/ff4444/ffffff",
         "precio":2200,
@@ -39,7 +39,7 @@
     },
 
     {
-        "id":5,
+        "id":"5",
         "titulo":"Edita",
         "image":"http://dummyimage.com/250x250.png/dddddd/000000",
         "precio":5400,
@@ -48,7 +48,7 @@
     },
 
     {
-        "id":6,
+        "id":"6",
         "titulo":"Else",
         "image":"http://dummyimage.com/250x250.png/ff4444/ffffff",
         "precio":6700,
@@ -57,7 +57,7 @@
     },
 
     {
-        "id":7,
+        "id":"7",
         "titulo":"He250x250",
         "image":"http://dummyimage.com/250x250.png/cc0000/ffffff",
         "precio":1800,
@@ -66,7 +66,7 @@
     },
 
     {
-        "id":8,
+        "id":"8",
         "titulo":"Dar",
         "image":"http://dummyimage.com/250x250.png/cc0000/ffffff",
         "precio":1200,
@@ -75,7 +75,7 @@
     },
 
     {
-        "id":9,
+        "id":"9",
         "titulo":"Christyna",
         "image":"http://dummyimage.com/250x250.png/cc0000/ffffff",
         "precio":6300,
