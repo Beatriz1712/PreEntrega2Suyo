@@ -1,13 +1,13 @@
 import ItemList from "../ItemList/ItemList";
 import  {pedirProductos} from "../pedirProductos";
-import { useState,useEffect } from "react"
-import {useParams} from "react-router-dom"
+import { useState,useEffect } from "react";
+import {useParams} from "react-router-dom";
 
 const ItemListContainer = () => {
 
   const [productos, setProductos] = useState([]);
-  const categoria = useParams()
-   console.log(categoria);
+  const category = useParams().category
+   console.log(category);
   useEffect(() => {
     pedirProductos()
       .then((resp) => {
@@ -16,7 +16,7 @@ const ItemListContainer = () => {
       .catch(error => {
         console.error(error);
       })
-  },[categoria])
+  },[category])
 
 
   return (
