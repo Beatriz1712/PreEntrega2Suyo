@@ -66,13 +66,18 @@
   transition: 0.5s;
   border-radius: 5px;
 }
-/*
+
 .producto {
   display: flex;
   flex-direction: column;
-  border-radius: 1rem;
+  border-radius: 2rem;
+  background-color: rgb(177, 224, 237);
+  border-radius: 1px;
+  padding: 10px;
+  justify-content: center;
+  gap: 5;
 }
-*/
+
 /*
 .producto > div {
   padding: 1rem;
@@ -92,6 +97,7 @@
   display: flex;
   justify-content: center;
   align-items: center; 
+  flex-wrap: wrap;
 }
 .producto-detalle {
   display:flex;
@@ -102,5 +108,5 @@
   margin: 20px;
   background-color: rgb(177, 224, 237);
   border-radius: 1px;
-  border-color: blueviolet;
+  
 }

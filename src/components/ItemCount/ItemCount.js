@@ -14,7 +14,7 @@ const ItemCount  = ({cantidad, handlerRestar,handlerSumar ,handleAgregar,stock})
         </div>
         <div>
             <button className='agregar-al-carrito' onClick={handleAgregar} disable={!stock}>
-            Agregar al carrito
+             Agregar al carrito
             </button>
         </div>
     </div>

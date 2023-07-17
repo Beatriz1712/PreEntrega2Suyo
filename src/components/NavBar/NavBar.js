@@ -18,9 +18,9 @@ const NavBar = () => {
                         <Link to="/productos" className="enlaces">Productos</Link>
                         <Link to="/contacto" className="enlaces">Contacto</Link>
                         <NavDropdown title="Categorias" className="enlacesDes" id="basic-nav-dropdown">
-                            <NavDropdown.Item ><Link className= "enlaces" to="/category/productos A">Productos A</Link></NavDropdown.Item>
-                            <NavDropdown.Item ><Link className= "enlaces" to="/category/productos B">Productos B</Link></NavDropdown.Item>
-                            <NavDropdown.Item ><Link className= "enlaces" to="/category/productos C">Productos C</Link></NavDropdown.Item>  
+                            <NavDropdown.Item ><Link className= "enlaces" to="/category/productosA">Productos A</Link></NavDropdown.Item>
+                            <NavDropdown.Item ><Link className= "enlaces" to="/category/productosB">Productos B</Link></NavDropdown.Item>
+                            <NavDropdown.Item ><Link className= "enlaces" to="/category/productosC">Productos C</Link></NavDropdown.Item>  
                         </NavDropdown>
                     </Nav>
                     {/*<CartWidget/>*/}

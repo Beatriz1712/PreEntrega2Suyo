@@ -12,7 +12,7 @@ import{Link} from 'react-router-dom';
               <p>Precio: ${producto.precio}</p>
               <p>Categoria: {producto.category}</p>
               <Link className='Ver-mas' to={`/Item/${producto.id}`}>Ver más</Link>
-              {/* FALTABA REFERENCIAR EL ID DEL PRODUCTO 👆 PARA QUE SE RECIBA EN LA RUTA */}
+              
           </div>
      </div>
 
