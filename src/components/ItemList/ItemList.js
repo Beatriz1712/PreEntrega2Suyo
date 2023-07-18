@@ -4,7 +4,7 @@ import Item from '../Item/Item'
 //presentacional-check
  const ItemList = ({productos}) => {
  return (
-    <div className='container'>
+    <div className='containerItemList'>
         
         <div>
            {
