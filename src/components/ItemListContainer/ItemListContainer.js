@@ -2,12 +2,15 @@ import ItemList from "../ItemList/ItemList";
 import  {pedirProductos} from "../pedirProductos";
 import { useState,useEffect } from "react";
 import {useParams} from "react-router-dom";
+import Data from "../../data/data.json";
 
 const ItemListContainer = () => {
 
   const [productos, setProductos] = useState([]);
-  const category = useParams().category
-   console.log(category);
+  const category = useParams()
+  const CategoryFilter = Data.filter(producto => producto.category === category)
+  console.log(category);
+   
   useEffect(() => {
     pedirProductos()
       .then((resp) => {
@@ -16,7 +19,7 @@ const ItemListContainer = () => {
       .catch(error => {
         console.error(error);
       })
-  },[category])
+  },[CategoryFilter])
 
 
   return (
