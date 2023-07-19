@@ -5,10 +5,10 @@ import ItemListContainer from '../components/ItemListContainer/ItemListContainer
 const Category = () => {
   const {category} =useParams()
  // const CategoryFilter = Data.filter(producto => producto.category === category)
-  
+  const CategoryFilter = Data.filter(producto=> producto.category === category.category)
     return (
     <div>
-        <ItemListContainer data={category}/>  
+        <ItemListContainer data={CategoryFilter}/>  
     </div>
   )
 }
