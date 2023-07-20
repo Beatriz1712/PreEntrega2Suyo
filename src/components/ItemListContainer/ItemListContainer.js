@@ -19,7 +19,7 @@ const ItemListContainer = () => {
       .catch(error => {
         console.error(error);
       })
-  },[CategoryFilter])
+  },[category])
 
 
   return (

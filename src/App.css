@@ -13,9 +13,12 @@
 .App {
   text-align: center;
 }
+.container-navbar {
+  background-color:rgb(44, 40, 40) ;
 
+}
 .navbar {
-  background-color: rgb(43, 41, 41) !important;
+  background-color: rgb(44, 40, 40) !important;
   color: whitesmoke;
   height: 5rem;
 }
@@ -25,7 +28,7 @@
 }
 
 .navbar .navbar-nav .nav-link {
-  color: #12aed5;
+  color:  #ef86d380;
   border-radius: .25rem;
   margin: 0 0.25em;
   font-size: 1.1rem;
@@ -47,8 +50,9 @@
 
 .enlaces{
   text-decoration: none;
-  border-radius: 5px;
+  /*border-radius: 5px;*/
   margin: 1.4rem;
+  color: #ef86d380;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
 }
 
@@ -59,30 +63,49 @@
   color: rgb(0, 0, 0);
 }
 .enlacesDes a:hover{
-  color:rgb(39, 134, 222);
+  /*color:rgb(39, 134, 222);*/
+  color: #ef86d380;
 }
 .enlacesDes:hover{
   background: rgba(84, 82, 82, 0.403);
   transition: 0.5s;
   border-radius: 5px;
 }
-.containerItemList {
-  max-width: 1140px;
-  padding-inline: 1.5rem;
-  margin: 0 auto;
-  
+/*navbar*/
+.container {
   display: flex;
+  justify-content: center;
+  align-items: center; 
+  
+  
   
 }
+
+.containerItemList {
+ 
+  display: flex;
+  /*justify-content: center;*/
+  /*align-items: center;*/
+  ;
+
+  flex-wrap: wrap;
+  /*max-width: 1140px;*/
+  /*padding-inline: 1.5rem;*/
+  
+ 
+}
+
+
 .producto {
   display: flex;
   flex-direction: column;
-  background-color: rgb(177, 224, 237);
+  background-color:  #ef86d380;
   border-radius: 2px;
   padding: 10px;
   margin: 1.5rem;
   justify-content: center;
   gap: 5;
+  display: inline-block
 }
 
 /*
@@ -95,18 +118,18 @@
 } */
 
 .itemListContainer {
-  display: flex;
+  background-color: rgb(244, 241, 238);
+  /*display: flex;
   flex-direction: column;
   padding: 1rem;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;*/
 }
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center; 
-  flex-wrap: wrap;
-}
+
+
+
+/*para cada tarjeta*/
 .producto-detalle {
   display:flex;
   flex-direction: column;
@@ -114,7 +137,7 @@
   width: 30%;
   padding: 10px;
   margin: 20px;
-  background-color: rgb(177, 224, 237);
+  background-color: #ef86d380;
   border-radius: 1px;
   
 }
